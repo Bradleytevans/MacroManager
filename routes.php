@@ -1,4 +1,4 @@
 <?php
 
-$router-get('', 'PagesController@home');
-$router-get('sign-up', 'PagesController@home');
+$router->get('', 'PagesController@home');
+$router->get('sign-up', 'PagesController@sign-up');
