@@ -7,7 +7,11 @@ class PagesController{
     }
 
     public function signUp() {
-        require 'views/sign-up.view.php'; ;
+        require 'views/signup.view.php'; ;
+    } 
+    
+    public function login() {
+        require 'views/login.view.php'; ;
     } 
 
 }

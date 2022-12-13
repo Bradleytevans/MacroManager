@@ -1,3 +1,3 @@
 <?php require('partials/head.php'); ?>
     <h1>Sign Up Below!</h1>
-<?php require('partials/head.php'); ?>
+<?php require('partials/footer.php'); ?>
