@@ -8,7 +8,12 @@ class PagesController{
 
     public function signUp() {
         require 'views/signup.view.php'; ;
-    } 
+    }
+    
+    public functions store()
+    {
+        return 'sign-up-stored';   
+    }
     
     public function login() {
         require 'views/login.view.php'; ;
